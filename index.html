@@ -1,0 +1,589 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>LTC Faucet | FreeLtc - Faucet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Green top bar color -->
+
+<meta name="theme-color" content="#000000">
+    <meta name="referrer" content="origin">
+    <meta content="Faucet" name="description" />
+    <meta content="FreeLtc" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="https://freeltc.fun/BSassets/images/flfavicon.png">
+    <!-- Bootstrap Css -->
+    <link href="https://freeltc.fun/assets/css/bootstrap-dark.min.css?v=4.2.1" id="bootstrap-style" rel="stylesheet" type="text/css" /><link href="https://freeltc.fun/assets/css/app-dark.min.css?v=4.2.1" id="bootstrap-style" rel="stylesheet" type="text/css" /><style>.antibotlinks {background-color: #ffffff}</style>      <!-- Custom styles for this template-->
+    <link href="https://freeltc.fun/BSassets/css/custom.css" rel="stylesheet">
+    <script src='https://freeltc.fun/assets/js/webjs/sweetalert.min.js'></script>
+    <!-- Icons Css -->
+    <link href="https://freeltc.fun/assets/css/icons.min.css?v=4.2.1" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="https://freeltc.fun/assets/css/temp.css?v=4.2.1" rel="stylesheet" type="text/css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WFQLCJ05HP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WFQLCJ05HP');
+</script>
+
+
+
+<style>
+/* --- Content Wrapper spacing (account for sticky header) --- */
+#content-wrapper{ padding-top: 8px; }
+#content{ padding: 12px 0 24px; }
+
+/* --- Carded Content Feel --- */
+.cards.container-fluid{
+  background: linear-gradient(135deg, rgba(30,33,48,.90), rgba(44,58,82,.88));
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.35);
+  padding: 16px;
+}
+
+.telegram-join-button {
+    display: inline-block;
+    background-color: #0088cc;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+}
+.telegram-join-button:hover {
+    background-color: #007ab8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 136, 204, 0.4);
+}
+.telegram-join-button:active {
+    transform: scale(0.98);
+}
+/* Tables */
+.table {
+  color: var(--text);
+}
+
+.table thead {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.table tbody tr {
+  background-color: var(--card-bg);
+}
+
+.table tbody tr:hover {
+  background-color: #2c2f3c;
+}
+</style>
+
+          <script src="https://richinfo.co/richpartners/telegram/js/tg-ob.js"></script>
+          <script>
+            window.TelegramAdsController = new TelegramAdsController();
+            window.TelegramAdsController.initialize({
+              pubId: "865156",
+              appId: "4135",
+            });
+          </script>
+          
+          
+         <script src="https:https://telegram.org/js/telegram-web-app.js?59"></script>
+</head>
+<body>
+  <div class="container">
+   <header class="app-navbar">
+    <div class="logo">
+         <a class="navbar-brand" href="/">
+                <img width="50" height="40" src="https://freeltc.fun/BSassets/images/favicon.png" alt="Logo">
+            </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/" class="active">Dashboard</a></li>
+            <li><a href="/faucet/currency/ltc">Faucet Tasks</a></li>
+              <li><a href="/withdraw/currency/ltc">Withdraw</a></li>
+            <li><a href="/coupon">Coupon</a></li>
+        
+        </ul>
+    </nav>
+</header>
+      </div>
+        <!-- Content Wrapper -->
+      <div id="content-wrapper">
+        <!-- Main Content -->
+        <div id="content">
+          <div class="cards container-fluid">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            </div>
+            <!-- Content Row -->
+            <div class="row">  
+    <div class="col-lg-12 text-center">          
+      
+                                     
+                 </div>
+</div>                        <style>
+    .adsbox {
+    height: 1px !important;
+    width: 1px !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+</style>
+<div id="adblock-locker" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999999;background:#111;color:#fff;align-items:center;justify-content:center;text-align:center;padding:20px;">
+    <div>
+        <h2>⚠ Ad Blocker Detected</h2>
+        <p>Please disable your ad blocker or Brave Shield to access this website.</p>
+        <p>Our faucet survives from ads. Without ads, we can't reward users.</p>
+        <strong>Refresh the page after disabling adblocker.</strong>
+    </div>
+</div>
+
+<style>
+/* ===== Dark Premium Theme (Mobile-first) ===== */
+.faucet-wrap {
+  padding: 6px;
+
+  min-height: calc(100vh - 60px);
+  color: #dfe6e9;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Top tasks block */
+.tasks-card {
+  position: relative;
+  border-radius: 18px;
+  padding: 18px;
+  background: radial-gradient(1200px 600px at 0% 0%, rgba(108,92,231,.18), transparent 70%),
+              radial-gradient(800px 400px at 100% 0%, rgba(0,206,201,.14), transparent 70%),
+              linear-gradient(135deg, rgba(30,33,48,.95), rgba(44,58,82,.92));
+  border: 1px solid rgba(0,206,201,.18);
+  box-shadow: 0 8px 28px rgba(0,0,0,.35), inset 0 0 20px rgba(108,92,231,.08);
+  overflow: hidden;
+}
+.tasks-card .heading {
+  display:flex; align-items:center; gap:12px;
+  margin-bottom: 12px;
+}
+.tasks-card .heading img {
+  width:44px; height:44px; object-fit:contain;
+}
+.tasks-card .heading h2 {
+  font-size:1.1rem; font-weight:800; letter-spacing:.3px; margin:0;
+  color:#ffffff;
+}
+.tasks-metrics {
+  display:grid; grid-template-columns: repeat(3, 1fr); gap:10px;
+}
+.metric {
+  background: rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:14px; padding:12px; text-align:center;
+}
+.metric .label { font-size:.78rem; color:#b2bec3; margin-bottom:6px }
+.metric .value { font-weight:800; font-size:1.05rem; color:#00e5df }
+
+/* Progress bars */
+.progress-wrap { margin-top:14px; }
+.progress-row { margin-bottom:10px; }
+.progress-label { display:flex; justify-content:space-between; font-size:.78rem; color:#b2bec3; margin-bottom:6px; }
+.progress {
+  height: 12px; background: #0c0e14; border:1px solid rgba(255,255,255,.06);
+  border-radius: 999px; overflow:hidden;
+}
+.progress .bar {
+  height:100%; width:0%;
+  background: linear-gradient(90deg, #6c5ce7, #00cec9);
+  box-shadow: 0 0 14px rgba(108,92,231,.6), 0 0 10px rgba(0,206,201,.35);
+  transition: width .6s ease;
+  border-radius: 999px;
+}
+
+/* Card shells */
+.card-neo {
+  background: linear-gradient(135deg, rgba(30,33,48,.9), rgba(44,58,82,.9));
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.35);
+}
+
+/* Title area */
+.coin-title {
+  display:flex; align-items:center; gap:12px; justify-content:center;
+  padding: 16px 12px 0 12px;
+}
+.coin-title img { width:50px; height:50px; }
+.coin-title h3 {
+  margin:0; font-size:1.15rem; font-weight:800; letter-spacing:.3px; color:#fff;
+}
+
+.reward-line {
+  text-align:center; margin:8px 0 16px 0;
+  color:#dfe6e9; font-weight:700;
+}
+
+/* Alert styles */
+.alert {
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin: 12px 0;
+  border:1px solid transparent;
+}
+.alert-danger { background: rgba(214,48,49,.12); border-color: rgba(214,48,49,.35); color: #ff7675; }
+.alert-success { background: rgba(0,184,148,.12); border-color: rgba(0,184,148,.35); color: #55efc4; }
+.alert-primary { background: rgba(108,92,231,.12); border-color: rgba(108,92,231,.35); color:#a29bfe; }
+
+/* Final / Step buttons */
+.btn-wide {
+  width:100%;
+  display:inline-flex; align-items:center; justify-content:center;
+  gap:10px; font-weight:800; font-size:0.82rem;
+  padding: 2px 4px; border-radius: 999px; border:0; outline:0;
+  color:#fff; background: linear-gradient(135deg, #6c5ce7, #00cec9);
+  box-shadow: 0 10px 24px rgba(108,92,231,.45), 0 6px 18px rgba(0,206,201,.30);
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+.btn-wide:disabled {
+  opacity:.7; filter: grayscale(.2);
+}
+.btn-wide:hover { transform: translateY(-2px); }
+
+/* Captcha area */
+.captcha-wrap { max-width: 360px; margin: 0 auto; }
+
+/* Ads placeholder helper (optional subtle wrapper) */
+.ad-slot { margin: 14px 0; }
+
+/* Wait block */
+.wait-box {
+  margin-top:12px;
+  border-radius: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, #1e2130, #2c3a52);
+  border:1px solid rgba(0,206,201,.2);
+  box-shadow: 0 10px 24px rgba(0,0,0,.35);
+  text-align:center;
+}
+.wait-title {
+  font-size: 1.02rem; font-weight: 800; color: #00cec9; margin: 0 0 8px 0;
+}
+.wait-clock {
+  display:inline-block;
+  background:#0c0e14; border:2px solid #00cec9; border-radius:999px;
+  padding: 8px 18px; font-weight:800; letter-spacing:.5px; color:#00cec9;
+  box-shadow: 0 0 12px rgba(0,206,201,.4);
+}
+
+/* Step subtitle */
+.step-sub { text-align:center; color:#b2bec3; margin-bottom: 12px; }
+
+/* Utilities */
+.mt-6 { margin-top: 24px; }
+.mb-0 { margin-bottom: 0; }
+.text-center { text-align:center; }
+
+ 
+ <style>
+     /* Withdraw Info Section */
+.withdraw-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.balance-box,
+.min-withdraw-box {
+  background: linear-gradient(135deg, #1e2130, #2c3a52);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  color: #dfe6e9;
+  box-shadow: 0 0 10px rgba(108, 92, 231, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.balance-box:hover,
+.min-withdraw-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 206, 201, 0.5);
+}
+
+.balance-box h4,
+.min-withdraw-box h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #a29bfe;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.balance-box .usd {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #00cec9;
+  margin: 0;
+}
+
+.balance-box .crypto {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b2bec3;
+}
+
+.min-withdraw-box .crypto {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fdcb6e;
+}
+
+
+</style>
+
+<div class="faucet-wrap">
+<div class="text-center row">
+    <div class="col-12 col-md-8 col-lg-6 order-md-2 mb-4 text-center">
+       
+             <div class="ads">
+                <ins class="686612b9c1de4873afa126eb" style="display:inline-block;width:1px;height:1px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","686612b9c1de4873afa126eb",["cdn.bmcdn6.com"], 0, new Date().getTime())}();</script>
+
+
+<ins class="6866128cc1de4873afa12541" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6866128cc1de4873afa12541",["cdn.bmcdn6.com"], 0, new Date().getTime())}();</script>            </div>
+ <center>
+            <coinscribble-ad widget="6b758493-de6e-4681-8355-a601881402d2"></coinscribble-ad>
+<script async src="https://cdn.coinscribble.sapient.tools/js/widget2.js"></script>
+        </center>
+        
+
+<!-- BALANCE BOX -->
+<div class="withdraw-info">
+  <div class="balance-box">
+    <h4>Available Balance</h4>
+    <p class="usd">0.00003229 LTC</p>
+    
+    <!-- MIN WITHDRAWAL PROGRESS BAR -->
+<div class="progress-wrap" style="margin-top: 15px;">
+    <div class="progress-row">
+        <div class="progress-label">
+            <span>Withdrawal Progress</span>
+            <span>53%</span>
+        </div>
+         <div class="progress">
+            <div class="bar" style="width: 52.807066%;"></div>
+        </div>
+    </div>
+</div>
+
+  </div>
+</div>
+
+
+<!-- TODAY'S TASKS -->
+<div class="tasks-card mb-0">
+  <div class="heading"><h2>Today's Tasks</h2></div>
+  <div class="tasks-metrics">
+    <div class="metric"><div class="label">Total Tasks</div><div class="value">250</div></div>
+    <div class="metric"><div class="label">Completed</div><div class="value">0</div></div>
+    <div class="metric"><div class="label">Remaining</div><div class="value">250</div></div>
+  </div>
+  <div class="progress-wrap">
+    <div class="progress-row">
+      <div class="progress-label"><span>Daily Progress</span><span>0%</span></div>
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+  </div>
+</div>
+    <div class="card-neo mt-6">
+    <div style="padding: 0 16px 16px 16px;">
+   
+            <form id="fauform" action="https://freeltc.fun/faucet/verify/ltc" method="POST">
+              
+                <input type="hidden" name="csrf_token_name" id="token" value="1f4406530996533210a81ffc57242f86">
+                <input type="hidden" name="token" value="rex6ntH8BpbV1qCsIfYFocNgESLa3Q">               
+               
+             
+                <iframe scrolling="no" src="https://cryptocoinsad.com/ads/show.php?a=256801&b=400083" style="overflow: hidden; width: 300px; height: 250px;" frameborder="0"></iframe>
+                </center>
+               
+                  <center>
+              <div class="form-group"><select class="form-control" id="selectCaptcha" style="display:none" name="captcha"><option value="icaptcha">Icon Captcha</option></select></div><div id="icaptcha" class="captcha mt-2"><link href="https://freeltc.fun/assets/iconcaptcha/client/css/icaptcha.min.css" rel="stylesheet" type="text/css">
+  <input type='hidden' name='_iconcaptcha-token' value='3284369bc24e7843900ae9396bc7648fdd70edbd9e8063ba2d8b7eeeca24e8fd' />
+  <div class="iconcaptcha-widget" data-theme="light"></div>
+  <script src="https://freeltc.fun/assets/iconcaptcha/client/js/iconcaptcha.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+                IconCaptcha.init('.iconcaptcha-widget', {
+                    general: {
+                        endpoint: 'https://freeltc.fun/icaptcha/req',
+                        fontFamily: 'inherit',
+                    },
+                    security: {
+                        interactionDelay: 1000,
+                        hoverProtection: true,
+                        displayInitialMessage: true,
+                        initializationDelay: 500,
+                        incorrectSelectionResetDelay: 3000,
+                        loadingAnimationDuration: 1000,
+                    },
+                    locale: {
+                        initialization: {
+                            verify: 'Verify that you are human.',
+                            loading: 'Loading challenge...',
+                        },
+                        header: 'Select the image displayed the <u>least</u> amount of times',
+                        correct: 'Verification complete.',
+                        incorrect: {
+                            title: 'Uh oh.',
+                            subtitle: "You've selected the wrong image."
+                        },
+                        timeout: {
+                            title: 'Please wait.',
+                            subtitle: 'You made too many incorrect selections.'
+                        }
+                    }
+                })
+            });
+        </script></div>              </center><br>
+            <input type="hidden" name="wallet" class="form-control" value="latikasaren811@gmail.com" readonly>
+ <button id="subbutt" class="btn btn-primary">
+<i class="far fa-check-circle"></i> Claim Now
+</button>     <br>
+<script>
+$(document).ready(function(){
+   $('#subbutt').click(function(){
+     $("#fauform").submit();
+   });
+})
+</script>                                        
+            </form>
+        </div>
+    </div>
+           
+    </div>
+    <div class="col-6 col-md-2 col-lg-3 order-md-1 p-0 left-ads"></div>
+    <div class="col-6 col-md-2 col-lg-3 order-md-3 p-0 right-ads"></div>
+</div>
+<div class="ads">
+  </div> 
+                  
+<script>
+const countDown = setInterval(() => {
+  if (typeof wait !== 'undefined') {
+    if (wait == 0) {
+      clearInterval(countDown);
+      $(".next-button").html(
+        '<a href="https://freeltc.fun/faucet/currency/ltc" class="btn btn-primary">Go Claim</a>'
+      );
+    }
+    let minutes = Math.floor(wait / 60);
+    let seconds = wait % 60;
+    $("#minute").text(minutes);
+    $("#second").text(seconds);
+    wait -= 1;
+  }
+}, 1000);
+
+$(document).ready(function () {
+  let timer = 6;
+  const counter = setInterval(() => {
+    if (timer == 0) {
+      $(".claim-button").html(
+        '<i class="far fa-check-circle"></i> Claim Now'
+      );
+      $(".claim-button").removeAttr("disabled");
+      clearInterval(counter);
+    } else {
+      if (timer === 1) {
+        $(".claim-button").text(`Please wait ${timer} second`);
+      } else {
+        $(".claim-button").text(`Please wait ${timer} seconds`);
+      }
+      --timer;
+    }
+  }, 1000);
+});
+</script>
+          </div>
+        </div>
+        <!-- End of Main Content -->
+        </div>
+
+    <!-- END layout-wrapper -->
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay">
+        <div>
+            <a></a>
+        </div>
+    </div>
+      <!-- Bootstrap core JavaScript-->
+    <script src="https://freeltc.fun/BSassets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://freeltc.fun/BSassets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="https://freeltc.fun/BSassets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="https://freeltc.fun/BSassets/js/sb-admin-2.min.js"></script>
+    <script type="text/javascript">
+        var site_url = "https://freeltc.fun/";
+    </script>
+    <script src="https://freeltc.fun/assets/js/webjs/captcha.js"></script>
+           
+     
+    <script type="text/javascript">
+        $("a[href='https://freeltc.fun/faucet/currency/ltc']").attr('active', 'true');
+    </script>
+    
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/adblock-detector.js"></script>
+<script>
+var TestAd="//static.surfe.pro/js/net.js";function init(){adsBlocked(function(a){a&&(Swal.fire("Disable your Ad Blocker before using our service."),setTimeout(function(){window.location.href=""},5e3))})}function adsBlocked(a){fetch(new Request("//adoto.net/dashboard/display/items.php",{method:"HEAD",mode:"no-cors"})).then(function(a){return a}).then(function(b){console.log(b),a(!1)}).catch(function(b){console.log(b),a(!0)})}!function(){var b=performance.now(),a=document.createElement("script");a.onload=function(){(performance.now()-b).toFixed(2),a.parentNode.removeChild(a)},a.onerror=function(){var a=(performance.now()-b).toFixed(2)+"ms";Swal.fire("Ad Blocker Detected","script failed to load after "+a+", Disable it or you will see this forever.","error"),setTimeout(function(){window.location.href=""},5e3)},a.src=TestAd,document.body.appendChild(a)}(),document.addEventListener("DOMContentLoaded",init,!1)
+</script>
+
+  <div style="position:fixed; padding: 3px; bottom: 10px; left: 8px; width: 300px; height:250px; z-index: 999999;"> 
+<span id="" style="position: absolute; z-index: 999999; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); top: 6px; left: 6px; font-family: Arial, sans-serif; font-size: 11px; text-decoration: none; padding: 1px 2px 2px; border-radius: 4px 4px 4px; font-weight: 400; cursor: pointer; line-height: 10px; box-shadow: rgba(0, 0, 0, 0.3) 0px 0px;" onclick="$(this).parent().fadeOut();">X</span> 
+
+ 
+
+<center><div id="banner-container">
+<div class="banner30" style="display:none">
+<ins class="686612b9c1de4873afa126eb" style="display:inline-block;width:1px;height:1px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","686612b9c1de4873afa126eb",["cdn.bmcdn6.com"], 0, new Date().getTime())}();</script>
+</div>
+
+<div class="banner30" style="display:none">
+<ins class="6866128cc1de4873afa12541" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6866128cc1de4873afa12541",["cdn.bmcdn6.com"], 0, new Date().getTime())}();</script>
+</div>
+
+<div class="banner30" style="display:none">
+<iframe id='banner_advert_wrapper_11541' src='https://api.fpadserver.com/banner?id=11541&size=300x250' width='300px' height='250px' frameborder='0'></iframe>
+</div>
+
+<div class="banner30" style="display:none">
+<iframe id='banner_advert_wrapper_11711' src='https://api.fpadserver.com/banner?id=11711&size=728x90' width='728px' height='90px' frameborder='0'></iframe>
+</div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+   $(document).ready(function() {
+      var banners = $(".banner30");
+      var randomBanner = banners[Math.floor(Math.random() * banners.length)];
+      $(randomBanner).css("display", "block");
+   });
+</script> </center>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"6ef3ad83d4f141ec87f02a71037db206","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
